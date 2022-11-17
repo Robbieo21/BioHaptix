@@ -335,11 +335,12 @@ void loop() {
           }
           endtime = millis();
         }
-        effect = 3;
+        effect = 10;
         drv.setWaveform(0,effect); // play effect after set up is done
         drv.setWaveform(1,0); // end waveform
         //Serial.println("test1");
         drv.go();
+        delay(500); 
       }
     }
   }
