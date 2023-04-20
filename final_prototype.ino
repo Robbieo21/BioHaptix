@@ -135,7 +135,7 @@ myservo.write(90);
   drv.setMode(DRV2605_MODE_INTTRIG); 
 
   //INITAL STARTUP PULSE
-  drv.setWaveform(0,12); // play effect 1
+  drv.setWaveform(0,82); // play effect
   drv.setWaveform(1,0); // end waveform
   drv.go();
 
@@ -206,7 +206,7 @@ myservo.write(90);
 
 }
 
-uint8_t effect = 1;
+uint8_t effect = 17;
 
 void loop() {
 //  int16_t distance;
